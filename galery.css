@@ -1,0 +1,86 @@
+@charset "utf-8";
+body{
+    background-color:rgb(199, 198, 190);
+    margin:0px;
+    padding:0px;
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+ 
+section{
+    width:100%;
+    height:95vh;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:rgb(44, 38, 10);
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:rgb(252, 251, 247);
+    font-size: 15px;
+    font-weight:700;
+}
+ 
+.logo{
+    font-family:RoadTest;
+    color:rgb(252, 251, 251);
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+.active{
+    color:rgb(65, 55, 27);
+    font-weight:bold;
+}
+
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: rgb(41, 34, 24);
+    font-size: 70px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-box{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+.img-box img {
+    width: 100%;
+    border: 0px solid rgb(41, 34, 24);
+    border-radius: 10px;
+}
